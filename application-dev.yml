@@ -9,4 +9,4 @@ eureka:
 
 skill:
   service:
-    url: it-is-local
+    url: it-is-dev
