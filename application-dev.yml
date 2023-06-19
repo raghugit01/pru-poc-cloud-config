@@ -1,0 +1,12 @@
+eureka:
+  instance:
+    instance-id: ${spring.application.name}
+    prefer-ip-address: false
+  client:
+    enabled: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+skill:
+  service:
+    url: it-is-local
